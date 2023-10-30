@@ -55,7 +55,7 @@ const createWindow = () => {
 
     // Set version on title
     const appVersion = app.getVersion();
-    mainWindow.setTitle(`CS2Browser - Launcher (${appVersion})`);
+    mainWindow.setTitle(`CS2Browser - Launcher (chill.lv edition) (${appVersion})`);
 
     Menu.setApplicationMenu(mainMenu);
 
