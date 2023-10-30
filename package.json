@@ -1,7 +1,7 @@
 {
   "name": "CS2BrowserLauncher",
-  "productName": "CS2Browser - Launcher",
-  "version": "0.2.3 chill.lv edition",
+  "productName": "CS2Browser - Launcher (chill.lv edition)",
+  "version": "0.2.3",
   "description": "CS2Browser - Launcher - Download manager and Launcher for CS2",
   "main": ".webpack/main",
   "scripts": {
@@ -29,7 +29,7 @@
     "@electron-forge/publisher-github": "^6.4.2",
     "@vercel/webpack-asset-relocator-loader": "1.7.3",
     "css-loader": "^6.0.0",
-    "electron": "26.2.4",
+    "electron": "^26.2.4",
     "electron-builder": "^24.6.4",
     "electron-builder-squirrel-windows": "^24.7.0",
     "node-loader": "^2.0.0",
