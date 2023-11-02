@@ -2,7 +2,7 @@
   "name": "CS2BrowserLauncher",
   "productName": "CS2Browser - Launcher",
   "version": "0.2.6",
-  "description": "CS2Browser - Launcher - Download manager and Launcher for CS2",
+  "description": "CS2Browser - Launcher (chill.lv edition)",
   "main": ".webpack/main",
   "scripts": {
     "start": "electron-forge start",
