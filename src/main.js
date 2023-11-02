@@ -55,7 +55,7 @@ const createWindow = () => {
 
     // Set version on title
     const appVersion = app.getVersion();
-    mainWindow.setTitle(`CS2Browser - Launcher (${appVersion})`);
+    mainWindow.setTitle(`CS2Browser - Launcher (chill.lv edition) (${appVersion})`);
 
     Menu.setApplicationMenu(mainMenu);
 
@@ -382,7 +382,7 @@ app.on('openSettingsWindow', () => { createSettingsWindow() });
 function createAboutWindow() {
     // TODO: create about window
     // go to github page
-    shell.openExternal('https://github.com/CS2Browser/Launcher');
+    shell.openExternal('https://github.com/rcon420/Launcher');
 }
 
 app.on('openAboutWindow', () => { createAboutWindow() });
